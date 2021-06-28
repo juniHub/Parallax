@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&display=swap");
+body,
+html {
+  height: 100%;
+  font-family: "Baloo Thambi 2", cursive;
+  background-color: black;
+  color: #b8c1ec;
+  text-align: center;
+}
+
+.parallax-init {
+  /* Set height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-bg1 {
+  background-image: url("assets/wave1.svg");
+}
+
+.parallax-bg2 {
+  background-image: url("assets/wave2.svg");
+}
+
+.parallax-bg3 {
+  background-image: url("assets/wave3.svg");
+}
+
+.content {
+  height: 100%;
+  font-size: 36px;
+}
+
+footer {
+  padding: 3rem;
+}
+
+footer a {
+  text-decoration: none;
+  color: hotpink;
+}
+
+footer a:hover {
+  text-decoration: none;
+  color: teal;
+}
